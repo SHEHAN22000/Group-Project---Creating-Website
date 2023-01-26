@@ -79,10 +79,14 @@ h2 {
 
 }
 
-a:link { /* Tel number color */
-        color:#222629;
-      }
+.row3 a:link {
+    color:#ffde00;
+    text-decoration: none;
+}
 
+a:link {
+    color:#222629;
+}
 
 .row3 {
     display: flex;
@@ -113,6 +117,7 @@ a:link { /* Tel number color */
 .card3 :hover{
     transform: scale(1.1);
 }
+
 
 .footer-box{
     display: flex;
