@@ -1,12 +1,12 @@
 body {
-
     background-color: #222629;
     background-image: url(images/background.png);
     background-position: right;
-    background-position-y: 60px;
+    background-position-y: 100px;
     background-repeat: no-repeat;
 
     font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
     width: 1280px;
     margin:auto;
     display: flex;
@@ -15,7 +15,6 @@ body {
 }
 
 .logo {
-
     width: 200px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -24,29 +23,24 @@ body {
 
 }
 
-
-.nav {
-    background: none;
-
-}
-
-
- .btn {
-
+.btn {
     background-color:#ffde00;
     border-color:#ffde00;
     color:#222629;
     border-radius: 3;
     align-self: center;
+    margin-top: 90px;
+    margin-left: 5px;
+    -webkit-filter: drop-shadow(5px 5px 5px #141516);
+    filter: drop-shadow(5px 5px 5px #141516);
 }
-
 
 h1 {
     text-align: left;
-    margin-top: 10px;
+    margin-top: 60px;
     margin-left: 10px;
     color: #ffde00;
-    font-size: 80px;
+    font-size: 90px;
     text-shadow: (5px 5px 5px #141516);
     filter: drop-shadow(5px 5px 5px #141516);
 }
@@ -54,7 +48,7 @@ h1 {
 h2 {
 
     font-family:Edwardian Script ITC;
-    font-size: 50px;
+    font-size: 65px;
     text-align: left;
     margin-bottom: 20px;
     text-shadow: (5px 5px 5px #141516);
@@ -65,25 +59,19 @@ h2 {
 
 .home {
     width: 60px;
-    margin-top: 60px;
+    margin-top: 90px;
+    -webkit-filter: drop-shadow(5px 5px 5px #141516);
+    filter: drop-shadow(5px 5px 5px #141516);
 }
 
-.btn {
-
-    margin-top: 60px;
+.home :hover {
+    transform: scale(1.1);
 }
 
 .left {
     text-align: left;
 }
 
-.center {
-    text-align: center;
-}
-
-.right {
-    text-align: right;
-}
 
 
 .row2 {
@@ -97,7 +85,6 @@ a:link { /* Tel number color */
 
 
 .row3 {
-
     display: flex;
     justify-content: space-between;
     text-align: center;
