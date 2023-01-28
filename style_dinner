@@ -56,13 +56,14 @@ img {
 
 }
 .home{
-    margin-left: 150px;
+    margin-left: 380px;
 }
 
 .left {
     display: flex;
     text-align: left;
     width: 200px;
+    margin: 100px 0 0 90px;
 }
 
 .center {
@@ -72,25 +73,25 @@ img {
 .right {
     text-align: right;
     width: 250px;
-    margin: 0 0px 0 30px;
+    margin: 100px 0px 0 50px;
 }
 .price,.price1, .price2,.price3,.price4,.price5,.price6 {
     color: #ffde00;
 }
 .price{
-    margin: 25px 28px 0 0px;
+   margin: 25px 109px 0 0px;
 }
 .price1{
-    margin: 25px 130px 0 0px;
+    margin: 0px 210px 0 10px;
 }
 .price2{
-    margin: 50px 70px 0 3px;
+    margin: 50px 170px 0 3px;
 }
 .price3{
-    margin: 25px 91px 0 0px;
+    margin: 25px 179px 0 0px;
 }
 .price4, .price5,.price6{
-    margin: 0px 0px 0 5px;
+    margin: 0px 0px 0 15px;
 }
 .matn,.matn1,.matn2,.matn3,.matn4,.matn5,.matn6{
     display: flex;
