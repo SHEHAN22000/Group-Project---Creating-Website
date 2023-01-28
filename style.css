@@ -1,141 +1,117 @@
 body {
-    background-color: #222629;
-    background-image: url(images/background.png);
-    background-position: right;
-    background-position-y: 100px;
-    background-repeat: no-repeat;
 
+    background-color: #222629;
     font-family: 'Encode Sans', sans-serif;
-    font-size: 20px;
-    width: 1280px;
+    width: 1080px;
     margin:auto;
     display: flex;
     justify-content: space-between;
     color: #ffde00;
 }
-
+.row1{
+    display: flex;
+}
 .logo {
+
     width: 200px;
     margin-top: 20px;
-    margin-bottom: 10px;
-    -webkit-filter: drop-shadow(5px 5px 5px #141516);
-    filter: drop-shadow(5px 5px 5px #141516);
 
 }
 
-.btn {
+.btn-dinner{
+    align-items: center;
+    margin: 0 0px 0 70px;
+    position: sticky;
+    width: 120px;
+}
+.menu{
+    align-items: center;
+    margin: 0px 180px 0px 0px;
+    font-size: larger;
+}
+
+ .btn {
+
     background-color:#ffde00;
     border-color:#ffde00;
     color:#222629;
     border-radius: 3;
-    align-self: center;
-    margin-top: 90px;
-    margin-left: 5px;
-    -webkit-filter: drop-shadow(5px 5px 5px #141516);
-    filter: drop-shadow(5px 5px 5px #141516);
+}
+.row2{
+    display: flex;
+    color: white;
+   
 }
 
 h1 {
-    text-align: left;
-    margin-top: 60px;
-    margin-left: 10px;
-    color: #ffde00;
-    font-size: 90px;
-    text-shadow: (5px 5px 5px #141516);
-    filter: drop-shadow(5px 5px 5px #141516);
-}
-
-h2 {
-
-    font-family:Edwardian Script ITC;
-    font-size: 65px;
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
-    text-shadow: (5px 5px 5px #141516);
-    filter: drop-shadow(5px 5px 5px #141516);
-
+    color: #ffde00;
+    font-family: "Sofia", sans-serif;
+    font-size: 60px;
+    text-shadow: 3px 3px 3px #ffffff;
+ 
 }
 
+img {
+    width: 50px;
 
-.home {
-    width: 60px;
-    margin-top: 90px;
-    -webkit-filter: drop-shadow(5px 5px 5px #141516);
-    filter: drop-shadow(5px 5px 5px #141516);
-}
-
-.home :hover {
-    transform: scale(1.1);
 }
 
 .left {
     text-align: left;
 }
 
-
-
-.row2 {
-    width: 1000px;
-
-}
-
-.row3 a:link {
-    color:#ffde00;
-    text-decoration: none;
-}
-
-a:link {
-    color:#222629;
-}
-
-.row3 {
-    display: flex;
-    justify-content: space-between;
+.center {
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 30px;
-}
-.card1 {
-    -webkit-filter: drop-shadow(5px 5px 5px #141516);
-    filter: drop-shadow(5px 5px 5px #141516);
-}
-.card2 {
-    -webkit-filter: drop-shadow(5px 5px 5px #141516);
-    filter: drop-shadow(5px 5px 5px #141516);
-}
-.card3 {
-    -webkit-filter: drop-shadow(5px 5px 5px #141516);
-    filter: drop-shadow(5px 5px 5px #141516);
 }
 
-.card1 :hover{
-    transform: scale(1.1);
+.right {
+    text-align: right;
 }
-.card2 :hover{
-    transform: scale(1.1);
+.price,.price1, .price2,.price3,.price4,.price5,.price6 {
+    color: #ffde00;
 }
-.card3 :hover{
-    transform: scale(1.1);
+.price{
+    margin: 25px 30px 0 0px;
 }
-
+.price1{
+    margin: 25px 141px 0 0px;
+}
+.price2{
+    margin: 50px 80px 0 3px;
+}
+.price3{
+    margin: 25px 91px 0 0px;
+}
+.price4, .price5,.price6{
+    margin: 0px 0px 0 5px;
+}
+.matn,.matn1,.matn2,.matn3,.matn4,.matn5,.matn6{
+    display: flex;
+}
+.matn1{
+    display: flex;
+}
 
 .footer-box{
+    background-color: rgba(127, 125, 125, 0.786);
     display: flex;
-    background-color: #ffde00;
     justify-content: space-between;
-    color: #222629;
-    align-items: center;
-    justify-content: space-around;
-    font-size: x-large;
+}
 
+.col-md-8,.col-md-4 {
+    display:block;
+    justify-content: space-between;
 }
 
 
-@media (max-width: 1280px) {
+@media (max-width: 1080px) {
 
 body {
     width: fit-content;
     margin: 0 16px 16px 16px;
+        
 }
 
 .wrapper {
@@ -146,6 +122,24 @@ body {
     width: 100%;
 }
 
+img {
+    display: block;
+    margin: 0 0 16px 0;
+}
+
 footer {
+    color: yellow;
+    padding: 50px 50px 50px 50px;
 
 }
+
+}
+p{
+  
+}
+
+p{
+  
+}
+
+
