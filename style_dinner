@@ -20,7 +20,7 @@ body {
 
 }
 
-2{
+h2{
     font-family: Edwardian Script ITC;
     font-size: 65px;
     text-align: left;
