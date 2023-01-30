@@ -20,25 +20,13 @@ body {
 
 }
 
-.btn-dinner{
-    align-items: center;
-    margin: 0 0px 0 70px;
-    position: sticky;
-    width: 120px;
-}
-.menu{
-    align-items: center;
-    margin: 0px 180px 0px 80px;
-    width: 250px;
-}
-
- .btn {
-
-    background-color:#ffde00;
-    border-color:#ffde00;
-    color:#222629;
-    border-radius: 3;
-    margin-left: 140px;
+2{
+    font-family: Edwardian Script ITC;
+    font-size: 65px;
+    text-align: left;
+    margin:150px 30px 25px 10px;
+    text-shadow: (5px 5px 5px #141516);
+    filter: drop-shadow(5px 5px 5px #141516);
 }
 .row2{
     display: flex;
